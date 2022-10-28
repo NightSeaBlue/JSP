@@ -1,5 +1,6 @@
 <%@ page import="java.sql.*" %>
 <%@ page import="java.io.*" %>
+
 <%@ page contentType="text/html; charset=UTF-8" %>
 <%@ page pageEncoding="UTF-8"%>
 <%@ page errorPage="02_NormalErrorPage.jsp" %>
@@ -39,6 +40,7 @@
 <!DOCTYPE html>
 <html><head><title> 디비 테스트 </title>
 </head>
+	<link rel="stylesheet" type ="text/css" href="./css/emp.css">
 <body>
  
 <div align=center>
