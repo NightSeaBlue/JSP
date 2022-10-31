@@ -47,8 +47,8 @@
 
 		<!-- ##################  -->
 		<!--  페이지 이동  -->
-		<%--<% response.sendRedirect("02_forwardSecond.jsp"); %>  : Redirecting : first request , first response --%>
-		<jsp:forward page="02_forwardSecond.jsp"></jsp:forward> <!-- forwarding : first request , second response -->
+		<%--<% response.sendRedirect("02_forwardSecond.jsp"); %>  : Redirecting : first request , first response --%>	<!--  url, 내용 모두 변화 -->
+		<jsp:forward page="02_forwardSecond.jsp"></jsp:forward> <!-- forwarding : first request , second response -->	<!--  url은 변하지 않고 내용만 변함 -->
 		
 </body>
 </html>

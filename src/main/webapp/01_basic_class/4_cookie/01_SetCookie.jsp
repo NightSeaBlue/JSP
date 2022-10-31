@@ -4,11 +4,11 @@
 
 <%	
 	// 1. Cookie 객체 생성
-	Cookie c = new Cookie("yourid","nightSeaBlue");
+	Cookie c = new Cookie("yourid","nightSeaBlue");		// 새로운 쿠키 생성 (id,value)
 	// 2. 속성 부여
 	c.setMaxAge(1*60*3);				// 3 분 (1ms*60 = 1sec)
 	// 3. 클라이언트에 쿠키 전송
-	response.addCookie(c);
+	response.addCookie(c);				// response (서버 to Client)
 %>
 
 <html>

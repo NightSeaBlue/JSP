@@ -4,7 +4,7 @@
 
 <%	
 	// 1. 클라이언트로부터 Cookie를 얻어옴 
-	Cookie [] c =request.getCookies();
+	Cookie [] c =request.getCookies();			// Cookie 의 경우 배열형으로 생성됨
 	String userId = "";
 	// 2. 쿠키 이름 중에 "yourid"가 있다면 그 쿠키의 값을 출력
 	for(int i = 0; c != null && i < c.length; i++) {

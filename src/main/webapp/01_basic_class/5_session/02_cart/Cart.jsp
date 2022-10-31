@@ -13,7 +13,7 @@
 	request.setCharacterEncoding("utf-8");		// 받는 데이터의 타입 한글 깨지지 않게 설정
 	
 	// 1. Form의 값(hidden값) 넘겨받기 ( id, name, price )
-		id = request.getParameter("id");
+		id = request.getParameter("id");					// hidden 의 name에 따른 parameter의 값을 받아줄 변수 지정
 		name = request.getParameter("name");
 		price = Integer.parseInt(request.getParameter("price"));
 	// 2. 세션의 cart 속성을 얻어온다.
@@ -46,12 +46,12 @@
 <th>가격</th></tr>
 
 <%
-		int n = glist.size(); 
-		int sum = 0; 
+		int n = glist.size(); 						// glist ArrayList 의 크기
+		int sum = 0; 								// 선택한 제품에 대한 금액을 합칠 변수
 		for(int i=0; i < n; i++) { 
-			Goods goods = (Goods) glist.get(i); 
-			int gp = goods.getPrice(); 
-			sum += gp; 
+			Goods goods = (Goods) glist.get(i); 	// glist 내 값이 있는 경우 해당하는 열의 값을 goods에 할당시킴 	
+			int gp = goods.getPrice(); 				// 선택한 제품의 금액을 할당할 변수
+			sum += gp; 								// 총액 합계
 %>
 			<tr><td align="center"> <%= goods.getName() %> </td>
 				<td align="right"> <%= gp %> </td></tr>

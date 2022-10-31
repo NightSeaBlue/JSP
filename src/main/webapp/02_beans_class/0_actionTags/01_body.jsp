@@ -10,7 +10,7 @@
 		<!-- ##################  -->
 		<!-- 페이지 삽입  -->
 		<%-- <%@ include file=""> --%>
-		<jsp:include page="01_header.jsp"></jsp:include>
+		<jsp:include page="01_header.jsp"></jsp:include>			<!--  Java File 상 해당하는 JSP의 입력결과가 body 단에 남지 않음 -->
 
 		<hr><hr>
 		<!-- 메인 내용 시작  -->
@@ -52,7 +52,7 @@
 		
 		<!-- ##################  -->
 		<!-- 페이지 삽입  -->
-		<jsp:include page="01_footer.jsp"></jsp:include>
+		<jsp:include page="01_footer.jsp"></jsp:include>		<!--  Java File 상 해당하는 JSP의 입력결과가 body 단에 남지 않음 -->
 		
 
 

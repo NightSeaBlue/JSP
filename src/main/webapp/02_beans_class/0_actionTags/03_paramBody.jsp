@@ -10,7 +10,7 @@
 
 <hr>
 <!-- ########  -->
-<jsp:include page="03_paramImage.jsp">
+<jsp:include page="03_paramImage.jsp">		<!--  include 로 이미지를 삽입했을 때, image의 parameter 수정하고자 하면 그 안에 action Tag를 하나 더 사용하면 됨 -->
 	<jsp:param name="lang" value="en" />
 </jsp:include>
 

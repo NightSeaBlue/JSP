@@ -31,13 +31,13 @@ session.removeAttribute("cart");									// session에서 cart 값 제거 : 제�
 		</tr>
 
 		<%
-		int sum = 0;
-		int n = glist.size();
+		int sum = 0;							// 구매 금액의 총합을 구할 변수
+		int n = glist.size();					// ArrayList인 Glist 의 길이(크기)
 
 		for (int i = 0; i < n; i++) {
-			Goods goods = (Goods) glist.get(i);
-			int gp = goods.getPrice();
-			sum += gp;
+			Goods goods = (Goods) glist.get(i);		//glist에 입력된 정보들이 있을 경우, 해당하는 행의 정보를 goods에 할당함
+			int gp = goods.getPrice();				// goods 내 price의 getter를 통해 가격을 가져오고 이를 변수에 할당
+			sum += gp;								// 할당된 변수 만큼 sum에 합함.
 		%>
 		<tr>
 			<td align="center"><%=goods.getName()%></td>
