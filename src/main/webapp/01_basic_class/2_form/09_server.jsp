@@ -12,7 +12,7 @@
  	 
 	// 2. EmpVO 멤버변수에 지정
 	 EmpVO vo = new EmpVO();
-	 vo.setEname(ename);
+	 vo.setEname(ename); 
 	 vo.setDeptno(deptno);
 	 vo.setEmpno(empno);
 	 vo.setJob(job);

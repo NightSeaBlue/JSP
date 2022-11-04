@@ -1,7 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <%@ page import="guest.model.*,guest.service.*" %>   
-<%@ page import="java.util.List" %>
+<%@ page import="java.util.List" %> 
  
 <%	
 	// client가 선택한 페이지 번호를 넘겨받음

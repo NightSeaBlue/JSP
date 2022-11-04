@@ -7,7 +7,7 @@
 %>
 
 <jsp:useBean id="rec" class="board_ex.model.BoardVO">
-	<jsp:setProperty name="rec" property="*"/>
+	<jsp:setProperty name="rec" property="*"/> 
 </jsp:useBean>
 
 <%	

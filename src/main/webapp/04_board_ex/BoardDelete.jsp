@@ -5,7 +5,7 @@
 <%
 	// 1. 삭제할 레코드의 게시글번호와 비밀번호를 넘겨받기
 	String seq = request.getParameter("seq");
-	String pass = request.getParameter("password");
+	String pass = request.getParameter("password"); 
 	// 2. Service에 delete() 호출
 	DeleteArticleService service = DeleteArticleService.getInstance();
 	int result =  0; 

@@ -3,7 +3,7 @@
 <%@ page import="board_ex.service.*, board_ex.model.*" %>
 <%
 	// 1. 삭제할 레코드의 게시글번호 넘겨받기
-	String seq = request.getParameter("seq");
+	String seq = request.getParameter("seq"); 
 	
 %>      
 <!DOCTYPE html>

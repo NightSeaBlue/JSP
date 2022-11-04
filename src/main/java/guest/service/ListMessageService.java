@@ -43,7 +43,7 @@ public class ListMessageService {
 		 * 	  3					7			    9
 		 */
 		// startRow = endRow -2;
-		int startRow = countPerPage*pageNum-2;
+		int startRow = countPerPage*pageNum-5;
 		int endRow = pageNum * countPerPage;
 		
 		List <Message> mList = MessageDao.getInstance().selectList(startRow,endRow);			

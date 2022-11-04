@@ -11,7 +11,7 @@
 			return;						// 메인 페이지 보지 않고 되돌아감
 		} 
 	//# 3. null이 아니라면 String 형변환하여 변수에 지정
-			String userId = (String)obj;
+			String userId = (String)obj; 
 		
 	
 %>

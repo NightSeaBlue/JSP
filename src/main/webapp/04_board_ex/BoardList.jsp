@@ -11,7 +11,7 @@
 
 <%
 
-String pNum = request.getParameter("page");
+String pNum = request.getParameter("page"); 
 System.out.println(pNum);
 
 // 전체 메세지 레코드 검색

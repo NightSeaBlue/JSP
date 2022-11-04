@@ -9,7 +9,7 @@
 	// 2. 쿠키 이름 중에 "yourid"가 있다면 그 쿠키의 값을 출력
 	for(int i = 0; c != null && i < c.length; i++) {
 				if(c[i].getName().equals("yourid")) {
-					userId+=c[i].getValue();
+					userId+=c[i].getValue(); 
 				}
 	}
 %>

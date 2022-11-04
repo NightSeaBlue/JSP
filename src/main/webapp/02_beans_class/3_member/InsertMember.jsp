@@ -3,7 +3,7 @@
 <%@ page import="member.beans.*" %>
 
 <!-- 하나씩 천천히 도전합시다 -->
-<% request.setCharacterEncoding("utf-8"); %>
+<% request.setCharacterEncoding("utf-8"); %> 
 
 <jsp:useBean id="m" class="member.beans.Member">
 		<jsp:setProperty property="*" name="m"/>		<!--  ASCII CODE 입력되면 * 만 입력해도 다 받을 수 있음 -->

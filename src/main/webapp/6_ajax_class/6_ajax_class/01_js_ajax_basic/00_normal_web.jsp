@@ -5,7 +5,7 @@
 	// ***  한글이 깨지는 문제가 있지만 전반적인 흐름만 이해합니다.
 	request.setCharacterEncoding("UTF-8");
 	String cate = request.getParameter("cate");
-	String name = request.getParameter("name");
+	String name = request.getParameter("name"); 
 	if( cate == null ) cate = "";
 	if( name == null ) name = "";
 %>

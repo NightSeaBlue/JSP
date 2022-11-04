@@ -7,7 +7,7 @@
 		request.setCharacterEncoding("utf-8");					// 고객의 입력타입이 있기 때문에 한글 안깨지게 하기 위해서 활용
 		
 		/*
-		InfoBean bean = new InfoBean();
+		InfoBean bean = new InfoBean(); 
 		String name = request.getParameter("name");
 		bean.setName(name);
 		

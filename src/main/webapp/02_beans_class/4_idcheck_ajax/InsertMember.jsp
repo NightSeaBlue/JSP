@@ -10,7 +10,7 @@
 </jsp:useBean>
 
 <%   
-	MemberDao dao = MemberDao.getInstance();
+	MemberDao dao = MemberDao.getInstance(); 
 	dao.insertMember(m);
 %>
 	

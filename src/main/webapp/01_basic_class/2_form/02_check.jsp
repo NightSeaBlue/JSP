@@ -8,7 +8,7 @@
        String name = request.getParameter("name");
        String gender = request.getParameter("gender");
        String occup = request.getParameter("occupation");
-       String[] hobby = request.getParameterValues("hobby");
+       String[] hobby = request.getParameterValues("hobby"); 
        String hobbyTxt ="";
        //if(hobby != null) {
        for(int i = 0 ; hobby !=null && i < hobby.length ; i++) {

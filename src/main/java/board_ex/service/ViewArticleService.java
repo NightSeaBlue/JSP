@@ -19,8 +19,11 @@ public class ViewArticleService {
 	{
 		int article_id = 0;
 		if( id != null ) article_id = Integer.parseInt(id);
+		
 		BoardDao dao = BoardDao.getInstance();
-		BoardVO rec = dao.selectById(article_id);		
+		
+		BoardVO rec = dao.selectById(article_id);
+		
 		dao.increaseReadCount(article_id);
 		return rec;
 	}

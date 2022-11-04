@@ -13,7 +13,7 @@
 		<div id="content">
 			<div class="location">
 				<h3><img src="./imgs/tit_0103.gif" alt="한 &#183 일간 울릉도쟁계와 우리의 독도 영유권 확인" /></h3>
-				<p> <strong> 일본의 독도 인식</strong></p>
+				<p> <strong> 일본의 독도 인식</strong></p> 
 			</div>
 			<div class="content_view">
 				<div class="cont_box">

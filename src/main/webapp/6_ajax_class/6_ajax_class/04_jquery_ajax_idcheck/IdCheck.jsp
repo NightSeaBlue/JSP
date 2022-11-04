@@ -9,7 +9,7 @@ String dbURL="jdbc:oracle:thin:@localhost:1521:xe";
 
 
 	Class.forName(driver);
-	Connection connection=DriverManager.getConnection(dbURL,user,pass);
+	Connection connection=DriverManager.getConnection(dbURL,user,pass); 
 	
 	String sql = "select * from emp where ename=?";
 	System.out.println(sql);

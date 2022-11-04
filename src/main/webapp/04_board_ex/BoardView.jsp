@@ -3,7 +3,7 @@
 <%@ page import="board_ex.service.*, board_ex.model.*" %>
 <%
 	// 게시글번호 넘겨받아
-	String seq = request.getParameter("seq");
+	String seq = request.getParameter("seq"); 
 	System.out.println(seq);
 	// 서비스의 함수를 호출하여 해당 BoardVO를 넘겨받는다.
 	ViewArticleService service = ViewArticleService.getInstance();

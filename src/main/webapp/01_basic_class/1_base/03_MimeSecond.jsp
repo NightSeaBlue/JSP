@@ -8,7 +8,7 @@
 	ResultSet rs =null;
 
 public void DBLoading(){
-	try {
+	try { 
 		Class.forName("oracle.jdbc.driver.OracleDriver");
 	} catch (ClassNotFoundException e ) {}
   

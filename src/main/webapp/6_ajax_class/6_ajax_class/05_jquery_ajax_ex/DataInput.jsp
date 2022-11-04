@@ -6,7 +6,7 @@ String pass="tiger";
 String dbURL="jdbc:oracle:thin:@localhost:1521:xe";
 
 request.setCharacterEncoding("utf-8");
-String name  = request.getParameter("name");
+String name  = request.getParameter("name"); 
 String age = request.getParameter("age");
 String tel = request.getParameter("tel");
 String addr= request.getParameter("addr");

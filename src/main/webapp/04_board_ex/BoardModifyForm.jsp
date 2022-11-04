@@ -7,7 +7,7 @@
 	System.out.println(seq);
 	// 2. Service에 getArticleById()함수를 호출하여 그 게시글번호의 레코드를 검색
 	ViewArticleService service = ViewArticleService.getInstance();
-	BoardVO vo =service.getArticleById(seq);
+	BoardVO vo =service.getArticleById(seq); 
 
 	
 %>    

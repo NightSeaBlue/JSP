@@ -7,7 +7,7 @@
 
 	// 1. 이전 화면에서 넘겨받은 데이타
 	String cate = request.getParameter("cate");
-	String name = request.getParameter("name");
+	String name = request.getParameter("name"); 
 	
 	// 2. 다시 화면으로 보낼 데이터 구성
 	cate="changed_"+cate+"_by_server";

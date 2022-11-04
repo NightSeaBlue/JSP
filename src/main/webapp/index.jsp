@@ -15,6 +15,6 @@
 <title>Insert title here</title>
 </head>
 <body>
-메세지 : <%= msg %>
+메세지 : <%= msg %> 
 </body>
 </html>

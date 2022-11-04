@@ -10,7 +10,7 @@ String dbURL="jdbc:oracle:thin:@localhost:1521:xe";
 
 
 String rtn_xml="";
-
+ 
 	Class.forName(driver);
 	Connection connection=DriverManager.getConnection(dbURL,user,pass);
 	

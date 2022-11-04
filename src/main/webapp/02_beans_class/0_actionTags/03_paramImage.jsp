@@ -3,7 +3,7 @@
 
 <%
 	// <jsp:param>의 값 넘겨받기
-	String lang = request.getParameter("lang");
+	String lang = request.getParameter("lang"); 
 	if( lang == null || lang.equals("")) lang="ko";
 %>    
 

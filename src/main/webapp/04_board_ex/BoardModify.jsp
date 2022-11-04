@@ -4,7 +4,7 @@
  
 <%
 	// 0. 넘겨받는 데이타의 한글 처리
-	request.setCharacterEncoding("utf-8");
+	request.setCharacterEncoding("utf-8"); 
 	
 %>
 

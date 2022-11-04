@@ -9,7 +9,7 @@ pageEncoding="UTF-8"%>
 <%! int answer=0; %>
 <%! int numGuesses=0; %>
 
-<% String guess=request.getParameter("guess");
+<% String guess=request.getParameter("guess"); 
 	 	
 		if( guess==null ) {
 %>
