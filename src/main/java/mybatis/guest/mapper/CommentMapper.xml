@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+<!DOCTYPE mapper
+ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+ "http://mybatis.org/dtd/mybatis-3-mapper.dtd"> 
+<mapper namespace="CommentMapper"> 
+ <select id="selectComment" resultType="Comment"> 
+ select * from comment_tab
+ <!-- DB 컬럼 명과 VO의 변수 명이 다르면 별칭 처리
+ 	  그렇지 않으려면, 설계시 DB Column 명과 VO 변수명을 동일하게 지정
+ 	  <settings>
+		<setting name="mapUnderscoreToCamelCase" value="true"/>
+	</settings> // 언더바 이후의 단어들을 모두 낙타기법으로 전환함
+  -->  
+ </select>
+ 
+ <select id="selectCommentByPK" parameterType="hashmap" resultType="Comment">
+ 	select * from comment_tab WHERE comment_no=#{commentNo}
+ </select>
+ 
+ <insert id="insertComment" parameterType="Comment">
+ 	INSERT INTO comment_tab VALUES (#{commentNo},#{userId},#{commentContent},SYSDATE)
+ </insert>
+ 
+ <delete id="deleteCommentByPK" parameterType="hashmap">
+ 	DELETE FROM comment_tab WHERE comment_no=#{commentNo} 
+ </delete>
+ 
+ <update id="updateCommentByPK" parameterType="Comment">
+ 	UPDATE comment_tab SET USER_ID=#{userId}, COMMENT_CONTENT=#{commentContent} WHERE comment_no=#{commentNo}
+ </update>
+  
+</mapper>
